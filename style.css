@@ -10,12 +10,12 @@ body{
 }
 .card{
     width: 90%;
-    max-width: 470px;
+    max-width: 450px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     margin: 100px auto 0;
-    border-radius: 20px;
-    padding: 40px 35px;
+    border-radius: 35px;
+    padding: 35px 10px;
     text-align: center;
 
 }
@@ -30,7 +30,7 @@ body{
     outline: 0;
     background: #ebfffc;
     color:#555;
-    padding: 10px 25px;
+    padding: 10px 15px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
@@ -91,4 +91,8 @@ body{
     margin-top: 10px;
     font-size: 14px;
     display: none;
+}
+@media screen and (max-width: 800px)
+{
+    background-image:url(https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
